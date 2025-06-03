@@ -90,7 +90,9 @@ export default function Home() {
 
         <section id="contato" style={sectionContainerStyle}>
           <h2 style={sectionTitleStyle}>Contato</h2>
-          <p style={sectionTextStyle}>Email: suporte@minhaempresa.com</p>
+          <p style={sectionTextStyle}>
+            Email: <a href="mailto:contato@empresa.com">contato@empresa.com</a>
+          </p>
           <p style={sectionTextStyle}>Telefone: (00) 1234-5678</p>
         </section>
       </main>
