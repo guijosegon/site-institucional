@@ -1,4 +1,4 @@
-# Site Institucional — Next.js
+# Site Institucional
 
 Este é um site institucional básico construído com Next.js, contendo logo e imagens genéricas. Está pronto para ser versionado no Git e executado localmente.
 
