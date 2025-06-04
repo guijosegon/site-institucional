@@ -14,34 +14,21 @@ Este é um site institucional básico construído com Next.js, contendo logo e i
 nextjs-site/
 │
 ├── public/
-│   ├── logo.png           # Logo genérica
-│   ├── images/
-│   │   ├── banner.jpg     # Imagem genérica de banner
-│   │   ├── servico1.jpg   # Exemplo de imagem para seção de serviços
-│   │   └── servico2.jpg
-│   └── favicon.ico
+│   ├── images/        # Todas imagens
 │
-├── src/
-│   ├── pages/
-│   │   ├── _app.js        # Componente App global
-│   │   ├── index.js       # Página inicial
-│   │   ├── sobre.js       # Página "Sobre"
-│   │   ├── servicos.js    # Página "Serviços"
-│   │   └── contato.js     # Página "Contato"
-│   │
-│   ├── components/
-│   │   ├── Header.js      # Cabeçalho/navegação
-│   │   ├── Footer.js      # Rodapé
-│   │   └── Layout.js      # Layout principal
-│   │
-│   └── styles/
-│       ├── globals.css    # Estilos globais
-│       └── Home.module.css# Estilos específicos da home
+├── pages/
+│   ├── _app.js        # Componente App global
+│   ├── index.js       # Página inicial
+│   ├── sobre.js       # Página "Sobre"
+│   ├── servicos.js    # Página "Serviços"
+│   └── contato.js     # Página "Contato"
+│   
+├── styles/
+│   └── globals.css    # Estilos globais
 │
 ├── .gitignore
-├── next.config.js
 ├── package.json
-└── README.md              # Este arquivo
+└── README.md          # Este arquivo
 ```
 
 ## Como executar localmente
@@ -75,20 +62,6 @@ nextjs-site/
 
 - `npm run start`  
   Executa o build de produção (depois de `npm run build`).
-
-## Estrutura das Páginas
-
-- **Home (`/`)**  
-  Página inicial com banner, breve apresentação da empresa e destaque dos principais serviços.
-
-- **Sobre (`/sobre`)**  
-  Informações institucionais, missão, visão e valores.
-
-- **Serviços (`/servicos`)**  
-  Lista de serviços oferecidos, com imagens genéricas e descrições.
-
-- **Contato (`/contato`)**  
-  Formulário de contato básico (título e campos de nome/e-mail/mensagem) e informações de localização.
 
 ---
 
